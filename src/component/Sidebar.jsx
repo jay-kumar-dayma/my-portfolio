@@ -2,7 +2,7 @@ import info from "../data/info.js";
 
 function Sidebar() {
   return (
-    <aside className="w-72 min-h-screen bg-[#16213e] p-8">
+    <aside className="w-full md:w-72 min-h-screen bg-[#16213e] border-b md:border-r-border-[#0f3460] p-8 flex flex-col">
       <div className="flex flex-col items-center gap-3">
         <div className="w-20 h-20 rounded-full bg-[#0f3460] border-2 border-[#e94560] flex items-center justify-center text-3xl font-bold text-[#e94560]">
           {info.name.charAt(0)}

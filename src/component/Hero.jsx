@@ -7,12 +7,12 @@ function Hero() {
     delaySpeed: 2000,
   });
   return (
-    <section className="flex-1 min-h-screen bg-[#1a1a2e] flex items-center px-16">
+    <section className="flex-1 min-h-screen bg-[#1a1a2e] flex items-center px-8 md:px-16 py-16 md:py-0">
       <div>
         <p className="text-[#e94560] tracking-widest uppercase text-m mb-4">
           Hello, I'm
         </p>
-        <h1 className="text-white text-6xl font-bold mt-4">{info.name}</h1>
+        <h1 className="text-white text-4xl md:text-6xl font-bold mb-4">{info.name}</h1>
         <h2 className="text-2xl font-medium mb-6">
           <span className="text-gray-400">I'm a </span>
           <span className="text-[#e94560]">{text}</span>
