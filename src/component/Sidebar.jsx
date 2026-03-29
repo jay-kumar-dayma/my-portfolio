@@ -8,7 +8,7 @@ function Sidebar() {
           {info.name.charAt(0)}
         </div>
         <h2 className="text-white font-semibold text-xl">{info.name}</h2>
-        <span className="text-xs text-[#e94560] bg-[#0f3460] px-4 py-1 rounded-full border border-[#e9456033]">
+        <span className="text-[#e94560] bg-[#0f3460] px-4 py-1 rounded-full border border-[#e9456033]">
           Full Stack Developer
         </span>
 

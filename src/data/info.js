@@ -8,7 +8,7 @@ const info = {
   ],
   email: "jaykumardayma@gmail.com",
   phone: "+91 6377503753",
-  location: "Udaipur, Rajasthan, India",
+  location: "Udaipur (Rajasthan), India",
   available: "true",
   social: {
     github: "https://github.com/jay-kumar-dayma",
