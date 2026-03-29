@@ -2,7 +2,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import info from "../data/info";
 function Hero() {
   const [text] = useTypewriter({
-    words: info.role,
+    words: info.roles,
     loop: true,
     delaySpeed: 2000,
   });
