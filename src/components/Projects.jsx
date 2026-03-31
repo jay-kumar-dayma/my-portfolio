@@ -9,7 +9,7 @@ function Projects() {
     : info.projects.filter(p => p.category === filter)
 
   return (
-    <section className="min-h-screen bg-[#1a1a2e] px-8 md:px-16 py-16">
+    <section id='projects' className="min-h-screen bg-[#1a1a2e] px-8 md:px-16 py-16">
 
       {/* Section heading */}
       <h2 className="text-white text-4xl font-bold mb-2">My <span className="text-[#e94560]">Projects</span></h2>

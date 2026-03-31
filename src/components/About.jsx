@@ -2,7 +2,7 @@ import info from '../data/info.js'
 
 function About() {
   return (
-    <section className="min-h-screen bg-[#1a1a2e] px-8 md:px-16 py-16">
+    <section id="about" className="min-h-screen bg-[#1a1a2e] px-8 md:px-16 py-16">
 
       {/* Section heading */}
       <h2 className="text-white text-4xl font-bold mb-2">About <span className="text-[#e94560]">Me</span></h2>

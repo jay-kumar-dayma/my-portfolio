@@ -1,25 +1,30 @@
-import Sidebar from "./component/Sidebar";
-import Hero from "./component/Hero";
-import About from "./component/About";
-import Resume from "./component/Resume";
-import Projects from "./component/Projects";
-import Contact from "./component/Contact";
-import Navbar from "./component/Navbar";
+import { useEffect, useRef } from 'react'
+import Sidebar from './components/Sidebar'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Resume from './components/Resume'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-[#1a1a2e]">
+    <div className="flex flex-col md:flex-row bg-[#1a1a2e]">
       <Sidebar />
-      <main className="flex-1 overflow-y-auto">
+      <div className="flex-1 flex flex-col">
         <Navbar />
-        <Hero />
-        <About />
-        <Resume/>
-        <Projects/>
-        <Contact/>
-      </main>
+        <main>
+          <Hero />
+          <About />
+          <Resume />
+          <Projects />
+          <Contact />
+          <Footer />
+        </main>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
